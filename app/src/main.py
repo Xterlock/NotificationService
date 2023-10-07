@@ -1,3 +1,7 @@
 from fastapi import FastAPI
 
-app = FastAPI(title="NS")
+from settings import base_setting
+
+app = FastAPI(
+    title=base_setting.app.title
+)
