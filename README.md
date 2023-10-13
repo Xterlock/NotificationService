@@ -1,5 +1,7 @@
 # Сервис уведомлений
 
+# Dev
+
 ## Стек
 
 API
@@ -9,18 +11,19 @@ API
 * Asyncpg - асинхронный драйвер для postgres
 
 TaskManager
-* Celery
+* Celery 
 
 Database
 * Postgres - sql база данных
 * Redis - NoSql база данных (кэш)
-  Testing
-* Pytest async
+
+* Testing
+* Httpx
+* Pytest async 
 
 CI/CD
 * Docker
 * Docker compose
-* GitLab CI
 
 ## Задача
 
