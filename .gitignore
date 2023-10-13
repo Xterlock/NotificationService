@@ -1,5 +1,6 @@
 ### Python template
-
+.env_cache
+.env_db
 .idea/
 # Byte-compiled / optimized / DLL files
 __pycache__/
